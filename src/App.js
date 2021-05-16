@@ -1,20 +1,8 @@
 import React from 'react';
-import {SafeAreaView, Text, useColorScheme} from 'react-native';
-
-import {Colors} from 'react-native/Libraries/NewAppScreen';
+import {SplashScreen} from './pages';
 
 const App = () => {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
-
-  return (
-    <SafeAreaView style={backgroundStyle}>
-      <Text>Hello Food Market App</Text>
-    </SafeAreaView>
-  );
+  return <SplashScreen></SplashScreen>;
 };
 
 export default App;
