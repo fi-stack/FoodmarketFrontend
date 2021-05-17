@@ -8,7 +8,7 @@ const Header = ({title, subTitle, onBack}) => {
       {onBack && (
         <TouchableOpacity activeOpacity={0.5}>
           <View style={styles.back}>
-            <IcBack style={{width: 25, height: 25}} />
+            <IcBack />
           </View>
         </TouchableOpacity>
       )}

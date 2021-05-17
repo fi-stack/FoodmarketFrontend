@@ -1,4 +1,4 @@
-import Logo from './logo.svg';
+import Logo from './Logo.svg';
 import IlSuccessSignUp from './IlSuccessSignUp.svg';
 
 export {Logo, IlSuccessSignUp};

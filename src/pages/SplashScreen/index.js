@@ -16,7 +16,7 @@ const SplashScreen = ({navigation}) => {
         justifyContent: 'center',
         alignItems: 'center',
       }}>
-      <Logo style={{width: 100, height: 100}} />
+      <Logo />
       <View style={{height: 38}} />
       <Text
         style={{fontSize: 32, color: '#020202', fontFamily: 'Poppins-Medium'}}>
